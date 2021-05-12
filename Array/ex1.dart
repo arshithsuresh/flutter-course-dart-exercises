@@ -6,13 +6,13 @@ int search(List<String>arr,String item)
   int result = 0;
 
   // Your code goes here! result can be stored in result and should be returned
-
+  result = arr.indexOf(item);
   return result;
 
 }
 
 void main(){
-
+    //                    0         1         2           3         4         5         6           7               8
     List<String> arr = ['Apple','Orange','Watermelon','Pineapple','Mango','Avacado', 'Banana', 'Blackcurrant','Strawberries'];
     String item1 = 'Pineapple';
     String item2 = 'Lychees';

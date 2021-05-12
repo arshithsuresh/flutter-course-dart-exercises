@@ -17,12 +17,12 @@ void main(){
   final lName = "Last Name";
 
   // Cannot modify the variable decalred as final
-  // lName = "Last Name Modified"; //Will throw an error
+  lName = "Last Name Modified"; //Will throw an error
 
   // const is used to declare compile time constants. They also cannot be changed later
   const pi = 3.14;
-  // const notValid = number * 5; // Cannot use variable to assign to a const value
+  const notValid = number * 5; // Cannot use variable to assign to a const value
 
-  // pi= 3.142; //cannot change const value
+  pi= 3.142; //cannot change const value
 
 }
